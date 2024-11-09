@@ -1,50 +1,18 @@
-    1  history
-    2  ls
-    3  ls Documents/
-    4  cd ~/Documents/
-    5  ls -la
-    6  cd ~/GIT
-    7  touch .gitignore
-    8  ls
-    9  ls -la
-   10  git clone https://github.com/DmytroOLKH/repo_dz911
-   11  ls -la
-   12  cd ~/GIT/repo_dz911
-   13  ls -la
-   14  git checkout -b feature
-   15  git add README.md .gitignore
-   16  git commit -m "Update README.md and .gitignore in feature branch"
-   17  git config --global  user.email "dmytrowilk@gmail.com"
-   18  git config --global  user.name "DmytroOLKH"
-   19  git commit -m "Update README.md and .gitignore in feature branch"
-   20  git push origin feature
-   21  Воспользуйтесь командой git commit --amend, чтобы изменить сообщение к последнему
-   22  коммиту в ветке feature , добавив в сообщение слово ammend.
-   23  git checkout feature
-   24  git commit --amend
-   25  git push --force
-   26  git push --set-upstream origin feature
-   27  git push --set-upstream origin feature
-   28  git commit --amend
-   29  git checkout main
-   30  git merge feature
-   31  git commit --amend
-   32  history
-   33  git commit --amend
-   34  git merge feature
-   35  ls -la
-   36  cd ~/GIT
-   37   cd ~/GIT/repo_dz911
-   38  git checkout -b feature
-   39  git commit -m "Update README.md and .gitignore in feature branch"
-   40  git push origin feature
-   41   git checkout feature
-   42  git commit --amend
-   43  git push --force
-   44  git push --set-upstream origin feature
-   45  git checkout main
-   46  git merge feature
-   47  git checkout main
-   48  git push
-   49   git merge feature
-   50  history > history.txt
+   1  git clone https://github.com/DmytroOLKH/repo_dz911
+   2  ls -la
+   3  cd ~/GIT/repo_dz911
+   4  ls -la
+   5  git checkout -b feature
+   6  git add README.md .gitignore
+   7  git commit -m "Update README.md and .gitignore in feature branch"
+   8  git push origin feature
+   9  git checkout feature
+   10  git commit --amend
+   11  git push --force
+   12  git push --set-upstream origin feature
+   13  git checkout main
+   14  git merge feature
+   15  git checkout main
+   16  git push
+   17  git merge feature
+   18  history > history.txt
